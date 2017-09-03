@@ -1,0 +1,35 @@
+/* Show it is fixed to the top */
+body {
+  /*min-height: 75rem;*/
+  padding-top: 3.5rem;
+}
+
+#main-navbar {
+  /*background-color: #c1d0db;*/
+  background-color: #e3f2fd;
+  background-blend-mode: lighten;
+}
+
+section {
+  padding-top: 100px;
+  margin-top: -56px;
+  min-height: 60rem;
+}
+
+section#intro-section {
+  min-height: 30rem;
+}
+
+#portfolio-section {
+  /*background-color: white;*/
+  background-color: #e3f2fd;
+}
+
+#about-section {
+  background-color: lightblue;
+  /*background-color: #e3f2fd;*/
+}
+
+#contact-section {
+  background-color: yellow;
+}
