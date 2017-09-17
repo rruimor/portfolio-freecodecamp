@@ -1,0 +1,140 @@
+body {
+  // font-family: 'Nothing You Could Do', cursive;
+  font-family: 'Happy Monkey', arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+}
+
+section {
+  height: 100%;
+}
+
+section h1 {
+  margin-botton: 60px;
+}
+
+.navbar {
+  padding: 0;
+  font-size: 14px;
+  a {
+    color: white !important;
+    border-left: 3px solid transparent;
+  }
+  &-brand {
+    padding: 8px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  &-collapse {
+  border-color: rgba(16, 16, 16, 0.29) !important;
+}
+  &-toggle {
+    border-color: transparent !important;
+  }
+  & .nav-item > a.active,
+  & .nav-item > a.active:hover {
+    background-color: rgba(16, 16, 16, 0.29) !important;
+    border-color: #e08179;
+  }
+}
+
+.navbar-nav .nav-link {
+  padding-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    a {
+      border-left: none;
+      border-bottom: 3px solid transparent;
+    }
+  }
+}
+
+.navbar-inverse {
+  background-color: rgba(34, 34, 34, 0.4);
+  border: none;
+}
+
+.navbar__icon {
+  &--dark {
+    color: white;
+  }
+  &.mdi::before {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}
+
+.section__panel {
+  padding: 40x 0;
+  &.dark {
+    color: white;
+  }
+}
+
+.section__bg-image {
+  min-height: 400px;
+  background: transparent;
+}
+
+.section__bg-image-intro {
+  background-image: url('https://unsplash.it/2000/1000?image=903');
+}
+
+.intro {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 2px rgba(143, 143, 143, 0.74);
+  &__container {
+    height: 100%;
+    width: 100%;
+    display: table;
+  }
+  &__content {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+  }
+  &__greeting {
+    font-family: 'Cabin Sketch', sans-serif;
+    font-size: 60px;
+  }
+  &__message {
+    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.37);
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.contact__icon {
+  color: #4d4d4d;
+  display: inline-block;
+  padding: 15px;
+  &--dark {
+    color: white;
+  }
+  &.mdi::before {
+    font-size: 50px;
+    line-height: 40px;
+  }
+  &:hover {
+    color: black;
+  }
+}
+
+.portfolio {
+
+}

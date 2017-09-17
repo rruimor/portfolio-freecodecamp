@@ -1,35 +1,102 @@
-/* Show it is fixed to the top */
 body {
-  /*min-height: 75rem;*/
-  padding-top: 3.5rem;
-}
+  font-family: 'Happy Monkey', arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px; }
 
-#main-navbar {
-  /*background-color: #c1d0db;*/
-  background-color: #e3f2fd;
-  background-blend-mode: lighten;
-}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100; }
 
 section {
-  padding-top: 100px;
-  margin-top: -56px;
-  min-height: 60rem;
-}
+  height: 100%; }
 
-section#intro-section {
-  min-height: 30rem;
-}
+section h1 {
+  margin-botton: 60px; }
 
-#portfolio-section {
-  /*background-color: white;*/
-  background-color: #e3f2fd;
-}
+.navbar {
+  padding: 0;
+  font-size: 14px; }
+  .navbar a {
+    color: white !important;
+    border-left: 3px solid transparent; }
+  .navbar-brand {
+    padding: 8px;
+    font-weight: bold;
+    font-family: sans-serif; }
+  .navbar-collapse {
+    border-color: rgba(16, 16, 16, 0.29) !important; }
+  .navbar-toggle {
+    border-color: transparent !important; }
+  .navbar .nav-item > a.active, .navbar .nav-item > a.active:hover {
+    background-color: rgba(16, 16, 16, 0.29) !important;
+    border-color: #e08179; }
 
-#about-section {
-  background-color: lightblue;
-  /*background-color: #e3f2fd;*/
-}
+.navbar-nav .nav-link {
+  padding-left: 16px; }
 
-#contact-section {
-  background-color: yellow;
-}
+@media screen and (min-width: 768px) {
+  .navbar a {
+    border-left: none;
+    border-bottom: 3px solid transparent; } }
+.navbar-inverse {
+  background-color: rgba(34, 34, 34, 0.4);
+  border: none; }
+
+.navbar__icon--dark {
+  color: white; }
+.navbar__icon.mdi::before {
+  font-size: 25px;
+  line-height: 25px; }
+
+.section__panel {
+  padding: 40x 0; }
+  .section__panel.dark {
+    color: white; }
+
+.section__bg-image {
+  min-height: 400px;
+  background: transparent; }
+
+.section__bg-image-intro {
+  background-image: url("https://unsplash.it/2000/1000?image=903"); }
+
+.intro {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 2px rgba(143, 143, 143, 0.74); }
+  .intro__container {
+    height: 100%;
+    width: 100%;
+    display: table; }
+  .intro__content {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center; }
+  .intro__greeting {
+    font-family: 'Cabin Sketch', sans-serif;
+    font-size: 60px; }
+  .intro__message {
+    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.37);
+    padding-bottom: 30px;
+    margin-bottom: 20px; }
+
+.contact__icon {
+  color: #4d4d4d;
+  display: inline-block;
+  padding: 15px; }
+  .contact__icon--dark {
+    color: white; }
+  .contact__icon.mdi::before {
+    font-size: 50px;
+    line-height: 40px; }
+  .contact__icon:hover {
+    color: black; }
+
+/*# sourceMappingURL=master.css.map */
