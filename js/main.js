@@ -15,7 +15,12 @@ $(document).ready(function() {
     resizeContainerHeight($intro);
   });
 
-  $('#intro').parallax({imageSrc: 'https://unsplash.it/2000/1000?image=903'});
+  $('#intro').parallax(
+    {
+      imageSrc: 'https://unsplash.it/2000/1000?image=903',
+      androidFix: false
+    }
+  );
 
   // Select all links with hashes
   $('a[href*="#"]')
