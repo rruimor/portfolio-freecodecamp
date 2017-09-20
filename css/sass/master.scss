@@ -1,6 +1,7 @@
 body {
   // font-family: 'Nothing You Could Do', cursive;
   font-family: 'Happy Monkey', arial, sans-serif;
+  // font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   font-size: 20px;
 }
@@ -12,6 +13,7 @@ h4,
 h5,
 h6 {
   font-weight: 100;
+  margin-top: 20px;
 }
 
 section {
@@ -19,7 +21,7 @@ section {
 }
 
 section h1 {
-  margin-botton: 60px;
+  margin-bottom: 60px;
 }
 
 .navbar {
@@ -32,7 +34,7 @@ section h1 {
   &-brand {
     padding: 8px;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: 'Cabin Sketch', sans-serif;
   }
   &-collapse {
   border-color: rgba(16, 16, 16, 0.29) !important;
@@ -76,7 +78,7 @@ section h1 {
 }
 
 .section__panel {
-  padding: 40x 0;
+  padding: 50px 0;
   &.dark {
     color: white;
   }
@@ -110,6 +112,7 @@ section h1 {
   &__greeting {
     font-family: 'Cabin Sketch', sans-serif;
     font-size: 60px;
+    margin-bottom: 25px;
   }
   &__message {
     border-bottom: 1px solid white;
@@ -136,5 +139,5 @@ section h1 {
 }
 
 .portfolio {
-
+  margin-top: 20px;
 }
